@@ -1,0 +1,16 @@
+.navElement {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navElement:hover {
+    color: #fcb100;
+    text-shadow: 0 0 5px #fcb100;
+}
+
+.active {
+    color: #fcb100;
+    text-shadow: 0 0 5px #fcb100;
+}

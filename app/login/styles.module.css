@@ -1,0 +1,44 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm form {
+    background-color: #343434;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.inputBlocks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputBlocks label, .newPassword {
+    color: white;
+    font-size: 16px;
+}
+
+.loginForm input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.loginForm form button, .changePasswordButton {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #343434;
+    cursor: pointer;
+    margin-top: 40px;
+}
